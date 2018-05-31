@@ -1,0 +1,58 @@
+body, html {
+  margin: 0;
+  background: #111;
+  color: #fefefe;
+  font-family: sans-serif;
+}
+
+body a {
+  color: #fefefe;
+}
+
+header {
+  padding: 1em;
+  background-color: #e2f0d6;
+  color: #10222b;
+}
+
+  header img {
+    float: left;
+    height: 10em;
+    padding: 0 3em 0 2em;
+  }
+
+section {
+  padding: 1em;
+}
+
+  section.half {
+    width: 45%;
+  }
+
+body ul li {
+  background: #10222b;
+  padding: .5em;
+  list-style-type: none;
+}
+
+body > ul > li {
+  margin: 1em;
+}
+
+ul li ul li {
+  display: inline-block;
+  background: #009ee0;
+  padding: 1em;
+  margin: .5em .125em;
+}
+
+  ul li ul li a {
+    color: #10222b;
+  }
+
+a.impressum {
+  color: #ccc;
+  padding: 1em;
+  text-align: right;
+  display: block;
+}
