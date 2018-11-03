@@ -1,38 +1,49 @@
 body, html {
   margin: 0;
-  background: #111;
-  color: #fefefe;
+  background: #e7e7e7;
+  color: #000;
   font-family: sans-serif;
 }
 
 body a {
-  color: #fefefe;
+  color: #111;
+}
+
+div {
+  max-width: 960px;
+  margin: auto;
 }
 
 header {
   padding: 1em;
-  background-color: #e2f0d6;
-  color: #10222b;
+  background-color: #111;
+  color: #fff;
 }
 
-  header img {
-    float: left;
-    height: 10em;
-    padding: 0 3em 0 2em;
-  }
+header img {
+  float: left;
+  height: 10em;
+  padding: 0 3em 0 2em;
+}
+
+header p {
+  color: #eee;
+}
 
 section {
-  padding: 1em;
+  padding: 0em 1em;
 }
 
-  section.half {
-    width: 45%;
-  }
+section.half {
+  width: 45%;
+}
 
 body ul li {
-  background: #10222b;
+  background: #ccc;
   padding: .5em;
+  margin: .5em;
   list-style-type: none;
+  font-weight: bold;
 }
 
 body > ul > li {
@@ -44,6 +55,7 @@ ul li ul li {
   background: #009ee0;
   padding: 1em;
   margin: .5em .125em;
+  font-weight: normal;
 }
 
   ul li ul li a {
